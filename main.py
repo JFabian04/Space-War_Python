@@ -89,7 +89,7 @@ def show_menu():
 
         pygame.display.update()
 
-# Pantalla de "Cómo jugar"
+# Pantalla de "Instrcuciones"
 def show_how_to_play():
     while True:
         screen.fill(BLACK)
@@ -109,7 +109,7 @@ def show_how_to_play():
 
         pygame.display.update()
 
-# Bucle principal del juego
+# Logica para el juego
 def game_loop():
     menu_sound.stop()
     game_sound.play(-1)
@@ -181,5 +181,5 @@ def game_loop():
         fps.tick(60)
 
 
-# Iniciar el juego mostrando el menú
+# Iniciar mostrando el menú
 show_menu()
